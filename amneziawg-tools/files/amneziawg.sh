@@ -4,7 +4,7 @@
 
 WG=/usr/bin/amneziawg
 if [ ! -x $WG ]; then
-	logger -t "amnezia-wg" "error: missing amneziawg-tools (${WG})"
+	logger -t "amnezia-wg" "error: missing amnezia-wg-tools (${WG})"
 	exit 0
 fi
 
